@@ -8,27 +8,6 @@ Aplikasi web prediksi stroke menggunakan machine learning yang dibuat dengan Str
 - Prediksi risiko stroke berdasarkan beberapa parameter seperti usia, tekanan darah, riwayat penyakit jantung, status merokok, dan lainnya.
 - Antarmuka pengguna yang ramah dengan Streamlit, memudahkan pengguna untuk memberikan input dan mendapatkan hasil prediksi.
 
-## **Struktur Proyek**
-Berikut adalah struktur direktori proyek ini:
-
-```
-tugas-besar-ks-rpl/
-│
-├── app/
-│   ├── app.py                     # Kode aplikasi Streamlit
-│
-├── models/
-│   ├── stroke_model.pkl           # File model hasil training
-│
-├── notebooks/
-│   ├── data_preprocessing.ipynb   # Notebook untuk preprocessing dan training
-│   ├── data_visualization.ipynb   # (Opsional) Notebook untuk eksplorasi data
-│
-├── requirements.txt               # Dependensi untuk deploy di Streamlit
-│
-└── dataset.csv                    # Dataset asli dari Kaggle
-```
-
 ### **Deskripsi File**
 - `app.py`: File utama aplikasi Streamlit yang digunakan untuk menjalankan antarmuka pengguna dan prediksi.
 - `stroke_model.pkl`: File model yang telah dilatih menggunakan RandomForestClassifier untuk memprediksi risiko stroke.

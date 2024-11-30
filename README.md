@@ -22,8 +22,8 @@ Untuk menjalankan aplikasi ini secara lokal, Anda perlu menginstal beberapa depe
 Clone repository ini ke mesin lokal Anda:
 
 ```bash
-git clone https://github.com/username/repository-name.git
-cd repository-name
+https://github.com/penoFahmi/tugas-besar-ks-rpl.git
+cd tugas-besar-ks-rpl
 ```
 
 ### 2. **Buat Virtual Environment**

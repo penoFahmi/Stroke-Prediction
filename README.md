@@ -12,7 +12,7 @@ Aplikasi web prediksi stroke menggunakan machine learning yang dibuat dengan Str
 - `app.py`: File utama aplikasi Streamlit yang digunakan untuk menjalankan antarmuka pengguna dan prediksi.
 - `stroke_model.pkl`: File model yang telah dilatih menggunakan RandomForestClassifier untuk memprediksi risiko stroke.
 - `data_preprocessing.ipynb`: Jupyter notebook untuk preprocessing data dan pelatihan model.
-- `dataset.csv`: Dataset asli yang digunakan untuk pelatihan model, yang diambil dari Kaggle.
+- `healthcare-dataset-stroke-data.csv`: Dataset asli yang digunakan untuk pelatihan model, yang diambil dari Kaggle.
 - `requirements.txt`: Daftar dependensi yang diperlukan untuk menjalankan aplikasi.
 
 ## **Instalasi dan Persyaratan**

@@ -1,9 +1,15 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
-# Load model
-model = joblib.load('../models/stroke_model.pkl')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "../models/stroke_model.pkl")
+model = joblib.load(model_path)
+
+
+# # Load model
+# model = joblib.load('../models/stroke_model.pkl')
 
 # Set up title and page layout
 st.set_page_config(page_title="Aplikasi Prediksi Stroke", layout="wide")

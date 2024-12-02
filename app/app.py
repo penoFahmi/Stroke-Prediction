@@ -37,7 +37,7 @@ residence_encoded = 1 if residence == "Urban" else 0
 # Gabungkan semua fitur
 input_data = np.array([[age, bmi, glucose, gender_encoded, smoking_encoded, married_encoded, residence_encoded]])
 
-# Predict
+# Prediksi
 if st.button("Prediksi"):
     prediction = model.predict(input_data)
     result = "Stroke" if prediction[0] == 1 else "Tidak Stroke"

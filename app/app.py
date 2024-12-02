@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "../models/stroke_model.pkl")
+model_path = os.path.join(BASE_DIR, "../models/best_stroke_model.pkl")
 model = joblib.load(model_path)
 
 
@@ -39,3 +39,4 @@ if st.button("Prediksi"):
     prediction = model.predict(input_data)
     result = "Stroke" if prediction[0] == 1 else "Tidak Stroke"
     st.write(f"Prediksi hasilnya adalah: **{result}**")
+    

@@ -39,23 +39,3 @@ if st.button("Prediksi"):
     prediction = model.predict(input_data)
     result = "Stroke" if prediction[0] == 1 else "Tidak Stroke"
     st.write(f"Prediksi hasilnya adalah: **{result}**")
-
-# Add additional styling or image
-st.markdown("""
-    <style>
-        .stButton>button {
-            background-color: #FF6F61;
-            color: white;
-            font-size: 18px;
-            border-radius: 10px;
-            padding: 10px 20px;
-        }
-        .stTitle {
-            font-size: 36px;
-            color: #2E3A59;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-# You can also add an image if you'd like:
-# st.image("stroke_image.png", width=700)
